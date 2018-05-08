@@ -11,6 +11,6 @@ function destructivelyAppendKitten(name){
 window.kittens = ['Milo', 'Otis', 'Garfield']
 
 function destructivelyPrependKitten(name){
-  kittens.prepends(name)
+  kittens.prepend(name)
   return kittens
 }
