@@ -40,3 +40,9 @@ window.kittens = ['Milo', 'Otis', 'Garfield']
 function prependKitten(name){
   return [name, ...kittens]
 }
+
+window.kittens = ['Milo', 'Otis', 'Garfield']
+
+function removeLastKitten(){
+  return kittens.splice(0, kittens.length - 1)
+}
