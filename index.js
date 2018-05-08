@@ -7,3 +7,10 @@ function destructivelyAppendKitten(name){
   kittens.push(name)
   return kittens
 }
+
+window.kittens = ['Milo', 'Otis', 'Garfield']
+
+function destructivelyPrependKitten(name){
+  kittens.prepends(name)
+  return kittens
+}
