@@ -3,4 +3,4 @@ var kittens = ['Milo', 'Otis', 'Garfield']
 
 window.kittens = ['Milo', 'Otis', 'Garfield']
 
-}
+
