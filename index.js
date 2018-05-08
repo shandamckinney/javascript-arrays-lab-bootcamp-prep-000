@@ -28,3 +28,10 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
   return kittens
 }
+
+window.kittens = ['Milo', 'Otis', 'Garfield']
+
+function appendKitten(name){
+  kittens.append()
+  return kittens
+}
