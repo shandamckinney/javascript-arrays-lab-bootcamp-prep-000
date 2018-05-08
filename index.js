@@ -24,7 +24,7 @@ function destructivelyRemoveLastKitten(){
 
 window.kittens = ['Milo', 'Otis', 'Garfield']
 
-function destructivelyRemoveLastKitten(){
+function destructivelyRemoveFirstKitten(){
   kittens.shift()
   return kittens
 }
