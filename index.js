@@ -34,3 +34,9 @@ window.kittens = ['Milo', 'Otis', 'Garfield']
 function appendKitten(name){
   return [...kittens, name]
 }
+
+window.kittens = ['Milo', 'Otis', 'Garfield']
+
+function prependKitten(name){
+  return [name, ...kittens]
+}
