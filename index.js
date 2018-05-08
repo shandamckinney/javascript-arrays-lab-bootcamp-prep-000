@@ -21,3 +21,10 @@ function destructivelyRemoveLastKitten(){
   kittens.pop()
   return kittens
 }
+
+window.kittens = ['Milo', 'Otis', 'Garfield']
+
+function destructivelyRemoveLastKitten(){
+  kittens.shift()
+  return kittens
+}
